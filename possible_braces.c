@@ -1,10 +1,4 @@
-/******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
 #include<malloc.h>
 #include <stdio.h>
 int check(char i,char *arr,int n,int n1)
@@ -52,14 +46,6 @@ void print_combinations(int terms,int n,char *arr)
         arr[terms]=')';
         print_combinations(terms+1,n,arr);
     }
-    // for(int i=0;i<=n;i++)
-    // {
-    //     if(check(i,arr,terms))
-    //     {
-    //         arr[terms]=;
-    //         print_combinations(terms+1,n,arr);
-    //     }
-    // }
 }
 
 int main()
